@@ -1,10 +1,10 @@
 using System;
 using System.Diagnostics;
 using System.Threading.Tasks;
+using MetroAttendanceApp.Models;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using MetroAttendanceApp.Models;
 
 namespace MetroAttendanceApp.Controllers
 {

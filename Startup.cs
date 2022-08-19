@@ -6,10 +6,10 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using MetroAttendanceApp.Models;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.EntityFrameworkCore;
 using MetroAttendanceApp.Data;
+using MetroAttendanceApp.Models;
 
 namespace MetroAttendanceApp
 {
