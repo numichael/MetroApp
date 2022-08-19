@@ -87,6 +87,7 @@ namespace MetroAttendanceApp.Controllers
                              user = new ApplicationUser();
                              user.UserName = model.Email;
                              user.Email = model.Email;
+                             
 
                              IdentityResult result = await _userManager.CreateAsync(user, model.Password);
                              ViewBag.Message = "User was Created";

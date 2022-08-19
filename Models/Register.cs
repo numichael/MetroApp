@@ -6,6 +6,13 @@ namespace MetroAttendanceApp.Models
 
     public class Register
     {
+
+        // [Required]
+        // [Display(Name = "Full Name")]
+
+        // public string Name { get; set;}
+
+
         [Required]
         [Display(Name = "Email Address")]
 
